@@ -5,11 +5,6 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoTran.Template", "ThoTran.Template\ThoTran.Template.csproj", "{016753B0-B244-4C87-8C1E-675D6FF20D14}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Expoerted Template", "Expoerted Template", "{8E263B80-1785-4F78-8A78-E4DDE7799B64}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\TTRAN\Documents\Visual Studio 2017\My Exported Templates\ThoTran.Template.zip = C:\Users\TTRAN\Documents\Visual Studio 2017\My Exported Templates\ThoTran.Template.zip
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

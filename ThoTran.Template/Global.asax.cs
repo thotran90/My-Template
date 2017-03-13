@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using ThoTran.Template.App_Start;
 
 namespace ThoTran.Template
 {
@@ -20,6 +21,9 @@ namespace ThoTran.Template
             // Registers our Razor C# specific view engine.
             // This can also be registered using dependency injection through the new IDependencyResolver interface.
             ViewEngines.Engines.Add(new RazorViewEngine());
+
+            //Register Autofac
+            AutofacConfiguration.ConfigureContainer();
         }
     }
 }
